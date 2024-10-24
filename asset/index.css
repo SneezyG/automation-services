@@ -1,0 +1,184 @@
+html {
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to right, #cb90b2, #bf93bb, #b397c1, #a59ac5, #989dc6, #8ea2c9, #86a6c9, #7faac8, #7ab1c8, #79b8c7, #7cbec3, #83c3be);
+  color: #353535;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+  font-family: "Open Sans", sans-serif;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+
+main {
+  margin-top: 40px;
+  margin-bottom: 160px;
+  padding: 0 10px;
+  flex: 1;
+}
+
+main > h3 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  word-spacing: 0.2em;
+  line-height: 1.4em;
+}
+
+.lift {
+  display: inline-block;
+}
+
+.tag-line {
+  margin-top: 40px;
+}
+
+.tag-line > a {
+  color: #353535;
+  position: relative;
+  top: 3px;
+  font-size: 22px;
+  line-height: 0.5em;
+}
+
+.company {
+  margin-top: 10px;
+}
+
+.company > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.company > p {
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: rgba(0.98, 0.95, 0.96, 0.5);
+  border-radius: 10px 10px 0 0;
+  width: 70%;
+  margin: auto;
+}
+
+.footer-image {
+  width: 100%;
+}
+
+.footer-info {
+  font-size: 2.7vw;
+  padding: 20px;
+}
+
+.footer-icon {
+  width: 10vw;
+}
+
+.footer-link {
+  color: white;
+  display: inline-block;
+  font-size: 2.5vw;
+}
+
+.copyright {
+  display: inline-block;
+  margin: 5px 0;
+  font-size: 2.2vw;
+  font-style: italic;
+}
+
+.footer-image-one {
+  border-radius: 10px 0 0 0;
+}
+
+.soon > img {
+  height: 450px;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .company > img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .company > p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+  
+  header {
+    width: 100%;
+  }
+  
+  .tag-line > span {
+    font-size: 20px;
+  }
+  
+  footer {
+    width: 100%;
+  }
+  
+  .footer-info {
+    font-size: 3.7vw;
+  }
+  
+  .footer-icon {
+    width: 15vw;
+  }
+  
+  .footer-link {
+    font-size: 3.4vw;
+  }
+  
+  .copyright {
+    font-size: 3vw;
+  }
+  
+  .soon > img {
+    height: 400px;
+  }
+  
+}
+
+@media only screen and (max-width: 576px) {
+  .company > img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .company > p {
+    font-size: 16px;
+  }
+  
+  header > h3 {
+    word-spacing: 0.15em;
+    letter-spacing: 0.05em;
+  }
+  
+  .tag-line {
+    letter-spacing: 0.04em;
+  }
+}
