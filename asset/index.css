@@ -23,7 +23,6 @@ header {
 }
 
 main {
-  margin-top: 40px;
   margin-bottom: 160px;
   padding: 0 10px;
   flex: 1;
@@ -37,8 +36,16 @@ main > h3 {
   line-height: 1.4em;
 }
 
-.lift {
-  display: inline-block;
+@keyframes rotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+h3 > svg {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 10px;
+  animation: rotate 20s linear infinite;
 }
 
 .tag-line {
@@ -131,6 +138,11 @@ footer {
   
   header {
     width: 100%;
+  }
+  
+  h3 > svg {
+    width: 70px;
+    height: 70px;
   }
   
   .tag-line > span {
