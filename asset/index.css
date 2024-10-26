@@ -115,6 +115,7 @@ footer {
 
 .soon > img {
   height: 450px;
+  max-width: 100%;
   border-radius: 7px;
   margin-top: 10px;
 }
