@@ -196,35 +196,6 @@ span.month {
   background-color: #BDBDBD;
 }
 
-.snip1517 .plan-cost {
-  padding: 0 20px;
-  margin: 0;
-}
-
-.plan-offer {
-  display: inline-block;
-  font-size: 12px;
-  color: white;
-  background-color: #FF8F00;
-  padding: 4px 7px;
-  margin: 5px 0;
-  border-radius: 10px;
-  position: relative;
-  bottom: 3px;
-}
-
-.offer-ends {
-  font-weight: bold;
-}
-
-.snip1517 .plan-price {
-  font-weight: 500;
-  font-size: 1.7em;
-  margin: 10px 0 0 0;
-  display: inline-block;
-  color: #424242;
-}
-
 footer {
   text-align: center;
   color: white;
@@ -276,108 +247,31 @@ footer {
   line-height: 30px;
 }
 
-.question-section {
-  padding: 0 10px;
-  margin: 0;
-  margin-top: 60px;
-  margin-bottom: 40px;
-}
-
-.question-cont {
-  margin: 0;
-  margin-top: 80px;
-}
-
-.question {
-  padding: 20px 30px 10px 30px;
-  background-color: white;
-  border-radius: 20px;
-  color: black;
-  height: 100%;
-}
-
-.question h4 {
-  border-bottom: 3px solid #9C526D;
-  color: #482734;
-  padding: 10px;
-  padding-top: auto;
-  text-transform: uppercase;
-}
-
-.question ul {
-  list-style: none;
-  margin: 0;
-  margin-top: 30px;
-  padding-left: 0;
-}
-
-p.model {
-  font-size: 18px;
-  color: #424242;
-  line-height: 30px;
-  letter-spacing: 0.06em;
-  word-spacing: 0.3em;
-  margin: 20px 0 10px 0;
-}
-
-p.long {
-  font-size: 17px;
-  color: #424242;
-  line-height: 27px;
-  text-align: start;
-  margin: 20px 0 -10 0;
-}
-
-.why {
-  margin-bottom: 30px;
-}
-
-.why > b {
-  text-transform: capitalize;
-  color: #482734;
-  font-size: 19px;
-}
-
-.why > span {
-  font-size: 18px;
-  color: #424242;
-}
-
 .action {
   text-align: center;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin: 20px 0;
   width: 100%;
+  padding: 0 20px;
 }
 
 .action > a {
   display: inline-block;
-  background-color: #1565C0;
-  color: white;
+  color: #1565C0;
   padding: 8px 10px;
-  font-size: 16px;
+  font-size: 15px;
   border-radius: 10px;
-  text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   opacity: 0.9;
-  border: 3px solid #1565C0;
+  border: 3px double #C60026;
 }
-
 
 
 @media only screen and (max-width: 1200px) { }
 
 
 @media only screen and (max-width: 992px) { 
-  .why > b {
-    font-size: 17px;
-  }
-  
-  .why > span {
-    font-size: 16px;
-  }
-  
+
   .links > a {
     font-size: 18px;
     width: 400px;
@@ -476,14 +370,6 @@ p.long {
     height: 50px;
   }
   
-  .why > b {
-    font-size: 16px;
-  }
-  
-  .why > span {
-    font-size: 15px;
-  }
-  
 }
 
 
@@ -505,7 +391,12 @@ p.long {
     color: #ffffff;
   }
   
-  a {
+  .action > a {
+    border: 3px double #ff8cb6;
+    color: #3893fc;
+  }
+  
+  p.process > a {
     color: #ffffff !important;
   }
   
@@ -526,29 +417,13 @@ p.long {
     color: white;
   }
   
-  .snip1517, .for-who, .plan-price {
+  .snip1517, .for-who {
     color: white !important;
   }
   
   .snip1517 .plan {
     background-image: none;
     background-color: black;
-  }
-  
-  .question {
-    background-color: black;
-  }
-  
-  .question h4, p.model, p.long {
-    color: white;
-  }
-  
-  .why > b {
-    color: #ff8cb6;
-  }
-  
-  .why > span {
-    color: white;
   }
   
   .snip1517 .plan-title {
