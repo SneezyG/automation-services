@@ -591,6 +591,10 @@ a.order {
     width: 65%;
   }
   
+  .pattern-back>h3 {
+    text-transform: capitalize;
+  }
+  
   .image-col, .word-col {
     height: 310px;
     flex-basis: 100%;
