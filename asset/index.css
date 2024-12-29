@@ -700,7 +700,7 @@ a.order {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #375cb3;
+    background-color: #12203d;
     color: #ffffff;
   }
   
@@ -726,7 +726,7 @@ a.order {
   }
   
   a.floating-link {
-    color: #ff7aab !important;
+    color: #fa98bc !important;
    }
   
   .pattern-back {
