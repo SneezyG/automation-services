@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: #d7e0fc;
+  background-color: #c4d3ff;
   color: #353535;
   font-size: 17px;
   font-weight: 500;
@@ -44,7 +44,7 @@ header > .menu {
 }
 
 .tag-line > svg {
-  fill: #44c416;
+  fill: #00b02f;
 }
 
 .menu-btn {
