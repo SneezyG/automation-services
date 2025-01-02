@@ -351,7 +351,7 @@ a.order {
 }
 
 .second .word-col {
-  background-image: linear-gradient(to left top, #757575, #7e7d89, #84869d, #898fb3, #8a99c9, #8e9ad1, #939ada, #9a9ae1, #aa8fd8, #ba83ca, #c777b9, #d16ba5);
+  background-image: linear-gradient(to left top, #00a675, #00ab96, #00aeb3, #00afca, #30afd9, #41b1db, #4fb2dd, #5bb4df, #49b9da, #3dbdd2, #3dc0c7, #48c2ba);
 }
 
 .third .word-col {
@@ -784,7 +784,7 @@ a.order {
   }
   
   .tag-line svg {
-    fill: #22bd4b;
+    fill: #7df252;
   }
   
   a.action-order, a.order {
