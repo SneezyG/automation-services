@@ -186,6 +186,11 @@ a.order {
   text-transform: uppercase;
 }
 
+h4.ai {
+  text-transform: capitalize !important;
+  line-height: 40px !important;
+}
+
 span.month {
   font-size: 0.7em;
 }
